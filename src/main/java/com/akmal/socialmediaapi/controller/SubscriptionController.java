@@ -20,7 +20,7 @@ public class SubscriptionController {
     private final SubscriptionService subscriptionService;
 
 
-    @PostMapping("{subscriberId}/change-status")
+    @PostMapping("/{subscriberId}/change-status")
     @Operation(description = "Принять/Отклонить заявку в друзья")
     public ResponseEntity<SubscriptionDTO> changeSubscriptionStatus(
             @Parameter(description = "Текущий пользователь")
