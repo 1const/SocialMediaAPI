@@ -1,6 +1,6 @@
 # SocialMediaAPI
 
-###Auth
+### Auth
 |     Method    | URL           |
 | ------------- | ------------- |
 |   POST             |  /social-media-api/v1/auth/registration |
