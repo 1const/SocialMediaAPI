@@ -1,16 +1,12 @@
 package com.akmal.socialmediaapi.controller;
 
-import com.akmal.socialmediaapi.domain.Subscription;
 import com.akmal.socialmediaapi.dto.SubscriptionDTO;
-import com.akmal.socialmediaapi.dto.UserDTO;
 import com.akmal.socialmediaapi.security.UserPrincipal;
 import com.akmal.socialmediaapi.service.SubscriptionService;
-import com.akmal.socialmediaapi.util.payload.SubscriptionResponse;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.Parameter;
 import io.swagger.v3.oas.annotations.tags.Tag;
 import lombok.RequiredArgsConstructor;
-import org.modelmapper.ModelMapper;
 import org.springframework.http.ResponseEntity;
 import org.springframework.security.core.annotation.AuthenticationPrincipal;
 import org.springframework.web.bind.annotation.*;

@@ -3,7 +3,6 @@ package com.akmal.socialmediaapi.service;
 import com.akmal.socialmediaapi.domain.Message;
 import com.akmal.socialmediaapi.domain.User;
 import com.akmal.socialmediaapi.dto.MessageDTO;
-import com.akmal.socialmediaapi.dto.UserDTO;
 import com.akmal.socialmediaapi.exception.NotFriendsException;
 import com.akmal.socialmediaapi.repository.MessageRepository;
 import com.akmal.socialmediaapi.repository.UserRepository;
@@ -32,10 +31,6 @@ public class MessageService {
 
     public MessagesResponse findMessagesByUserId(Long friendId,
                                                  UserPrincipal userPrincipal) {
-        User friend = userRepository.findById(friendId)
-                .orElseThrow(() -> new EntityNotFoundException("User not found"));
-        User user = userRepository.findById(userPrincipal.getUser().getId())
-                .orElseThrow(() -> new EntityNotFoundException("User not found"));
 
         List<Message> messagesByFriendId = messageRepository
                 .findMessagesByFriendId(friendId, userPrincipal.getUser().getId());

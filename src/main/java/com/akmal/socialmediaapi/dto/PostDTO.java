@@ -3,8 +3,6 @@ package com.akmal.socialmediaapi.dto;
 import io.swagger.v3.oas.annotations.media.Schema;
 import lombok.Data;
 
-import java.io.File;
-
 @Data
 public class PostDTO {
 

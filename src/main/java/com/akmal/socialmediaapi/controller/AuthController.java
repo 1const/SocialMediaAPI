@@ -1,8 +1,6 @@
 package com.akmal.socialmediaapi.controller;
 
 import com.akmal.socialmediaapi.dto.AuthenticationDTO;
-import com.akmal.socialmediaapi.dto.UserDTO;
-import com.akmal.socialmediaapi.domain.User;
 import com.akmal.socialmediaapi.security.JwtUtil;
 import com.akmal.socialmediaapi.service.RegistrationService;
 import com.akmal.socialmediaapi.util.payload.JwtResponse;
@@ -11,7 +9,6 @@ import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.Parameter;
 import io.swagger.v3.oas.annotations.tags.Tag;
 import lombok.RequiredArgsConstructor;
-import org.modelmapper.ModelMapper;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.security.authentication.AuthenticationManager;

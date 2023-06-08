@@ -1,7 +1,5 @@
 package com.akmal.socialmediaapi.domain;
 
-
-import com.fasterxml.jackson.annotation.JsonFormat;
 import lombok.EqualsAndHashCode;
 import lombok.Getter;
 import lombok.NoArgsConstructor;

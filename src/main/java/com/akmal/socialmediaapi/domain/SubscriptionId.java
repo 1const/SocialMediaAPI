@@ -13,6 +13,9 @@ import java.io.Serializable;
 @NoArgsConstructor
 public class SubscriptionId implements Serializable {
 
+    @Serial
+    private static final long serialVersionUID = 1L;
+
     @Column(name = "publisher_id")
     private Long publisherId;
 
