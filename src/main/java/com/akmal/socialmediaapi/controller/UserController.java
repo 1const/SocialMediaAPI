@@ -5,7 +5,7 @@ import com.akmal.socialmediaapi.security.UserPrincipal;
 import com.akmal.socialmediaapi.service.PostService;
 import com.akmal.socialmediaapi.service.SubscriptionService;
 import com.akmal.socialmediaapi.service.UserService;
-import com.akmal.socialmediaapi.util.payload.PostsByAuthorIdResponse;
+import com.akmal.socialmediaapi.payload.PostsByAuthorIdResponse;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.Parameter;
 import io.swagger.v3.oas.annotations.tags.Tag;

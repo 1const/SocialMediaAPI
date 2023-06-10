@@ -1,7 +1,7 @@
 package com.akmal.socialmediaapi.exception.handler;
 
 
-import com.akmal.socialmediaapi.util.payload.ApiExceptionResponse;
+import com.akmal.socialmediaapi.payload.ApiExceptionResponse;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.security.access.AccessDeniedException;

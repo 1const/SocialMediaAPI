@@ -1,4 +1,4 @@
-package com.akmal.socialmediaapi.util.payload;
+package com.akmal.socialmediaapi.payload;
 
 import io.swagger.v3.oas.annotations.media.Schema;
 import lombok.Data;

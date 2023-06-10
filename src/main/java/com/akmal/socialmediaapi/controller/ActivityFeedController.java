@@ -2,7 +2,7 @@ package com.akmal.socialmediaapi.controller;
 
 import com.akmal.socialmediaapi.security.UserPrincipal;
 import com.akmal.socialmediaapi.service.PostService;
-import com.akmal.socialmediaapi.util.payload.ActivityFeedResponse;
+import com.akmal.socialmediaapi.payload.ActivityFeedResponse;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.Parameter;
 import io.swagger.v3.oas.annotations.tags.Tag;

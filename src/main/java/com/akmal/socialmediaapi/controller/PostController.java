@@ -12,6 +12,8 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.security.core.annotation.AuthenticationPrincipal;
 import org.springframework.web.bind.annotation.*;
 
+import javax.validation.Valid;
+
 @RestController
 @RequestMapping("social-media-api/v1/posts")
 @RequiredArgsConstructor
@@ -35,6 +37,7 @@ public class PostController {
     @Operation(description = "Сохранение поста")
     public ResponseEntity<PostDTO> savePost(
             @Parameter(description = "Объект нового поста")
+            @Valid
             @RequestBody PostDTO postDTO,
 
             @Parameter(description = "Текущий пользователь")
@@ -52,6 +55,7 @@ public class PostController {
             @PathVariable(name = "id") Long postId,
 
             @Parameter(description = "Объект обновленного поста")
+            @Valid
             @RequestBody PostDTO postDTO,
 
             @Parameter(description = "Текущий пользователь")

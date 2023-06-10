@@ -1,7 +1,7 @@
 package com.akmal.socialmediaapi.config;
 
 
-import com.akmal.socialmediaapi.security.JwtUtil;
+import com.akmal.socialmediaapi.util.JwtUtil;
 import com.akmal.socialmediaapi.service.UserDetailsService;
 import com.auth0.jwt.exceptions.JWTVerificationException;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;

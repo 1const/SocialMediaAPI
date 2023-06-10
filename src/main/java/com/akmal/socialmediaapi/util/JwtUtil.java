@@ -1,4 +1,4 @@
-package com.akmal.socialmediaapi.security;
+package com.akmal.socialmediaapi.util;
 
 import com.auth0.jwt.JWT;
 import com.auth0.jwt.JWTVerifier;

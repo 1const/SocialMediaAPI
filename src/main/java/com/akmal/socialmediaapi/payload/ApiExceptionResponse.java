@@ -1,4 +1,4 @@
-package com.akmal.socialmediaapi.util.payload;
+package com.akmal.socialmediaapi.payload;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

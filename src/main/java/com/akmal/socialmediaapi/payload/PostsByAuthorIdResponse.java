@@ -1,4 +1,4 @@
-package com.akmal.socialmediaapi.util.payload;
+package com.akmal.socialmediaapi.payload;
 
 import com.akmal.socialmediaapi.dto.PostDTO;
 import io.swagger.v3.oas.annotations.media.Schema;

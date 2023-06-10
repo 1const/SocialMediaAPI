@@ -1,9 +1,8 @@
 package com.akmal.socialmediaapi.service;
 
 import com.akmal.socialmediaapi.domain.User;
-import com.akmal.socialmediaapi.dto.UserDTO;
 import com.akmal.socialmediaapi.repository.UserRepository;
-import com.akmal.socialmediaapi.util.payload.RegistrationRequest;
+import com.akmal.socialmediaapi.payload.RegistrationRequest;
 import lombok.RequiredArgsConstructor;
 import org.modelmapper.ModelMapper;
 import org.springframework.security.crypto.password.PasswordEncoder;
